@@ -48,16 +48,16 @@ public class Permission: NSObject {
     public static let Photos = Permission(.Photos)
     
     /// The permission to access the user's reminders.
-    public static let Reminders = Permission(.Reminders)
+    //public static let Reminders = Permission(.Reminders)
     
     /// The permission to access the user's events.
-    public static let Events = Permission(.Events)
+    //public static let Events = Permission(.Events)
     
     /// The permission to access the user's bluetooth.
-    public static let Bluetooth = Permission(.Bluetooth)
+    //public static let Bluetooth = Permission(.Bluetooth)
     
     /// The permission to access the user's motion.
-    public static let Motion = Permission(.Motion)
+    //public static let Motion = Permission(.Motion)
     
     /// The permission to send notifications.
     public static let Notifications: Permission = {
@@ -106,10 +106,10 @@ public class Permission: NSObject {
         case .Microphone:        return statusMicrophone
         case .Camera:            return statusCamera
         case .Photos:            return statusPhotos
-        case .Reminders:         return statusReminders
-        case .Events:            return statusEvents
-        case .Bluetooth:         return statusBluetooth
-        case .Motion:            return statusMotion
+        //case .Reminders:         return statusReminders
+        //case .Events:            return statusEvents
+        //case .Bluetooth:         return statusBluetooth
+        //case .Motion:            return statusMotion
         }
     }
     
@@ -182,10 +182,10 @@ public class Permission: NSObject {
         case .Microphone:        requestMicrophone(callback)
         case .Camera:            requestCamera(callback)
         case .Photos:            requestPhotos(callback)
-        case .Reminders:         requestReminders(callback)
-        case .Events:            requestEvents(callback)
-        case .Bluetooth:         requestBluetooth(self.callback)
-        case .Motion:            requestMotion(self.callback)
+        //case .Reminders:         requestReminders(callback)
+        //case .Events:            requestEvents(callback)
+        //case .Bluetooth:         requestBluetooth(self.callback)
+        //case .Motion:            requestMotion(self.callback)
         }
     }
     

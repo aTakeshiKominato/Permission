@@ -31,8 +31,8 @@ public enum PermissionType {
     case Microphone
     case Camera
     case Photos
-    case Reminders
-    case Events
-    case Bluetooth
-    case Motion
+    //case Reminders
+    //case Events
+    //case Bluetooth
+    //case Motion
 }
